@@ -1,0 +1,55 @@
+.add-expense-page {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .left-side, .right-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container h2, .image-container p {
+    margin: 10px 0;
+  }
+  
+  .expense-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgb(0, 174, 255);
+  }
+  
+  .right-side {
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .expense-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .expense-form input, .expense-form select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .expense-form button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+  }
+  
